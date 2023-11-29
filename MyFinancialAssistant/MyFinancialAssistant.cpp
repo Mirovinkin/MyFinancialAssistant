@@ -1,4 +1,4 @@
-﻿// MyFinancialAssistant.cpp : Этот файл содержит функцию "main". Здесь начинается и заканчивается выполнение программы.
+// MyFinancialAssistant.cpp : Этот файл содержит функцию "main". Здесь начинается и заканчивается выполнение программы.
 //
 
 #include <iostream>
@@ -202,6 +202,7 @@ public:
 						cout << "Дата затраты: " << item3.first << endl;
 						cout << "Сумма затраты: " << *min_element(item3.second.begin(), item3.second.end());
 					}
+					count--;
 				}
 			} while (count != 0);
 		}
